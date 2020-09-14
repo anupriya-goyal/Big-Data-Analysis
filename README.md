@@ -5,7 +5,7 @@ TOPIC of DATA:
 Our topic for data collection is “Politics”. <br/>
 <br/>
 DATA SETS:
-        Collected large amount of data sets from 3 different sources:
+        Collected large amount of data sets from 3 different sources:<br/>
         ● Twitter<br/>
         ● New York Times<br/>
         ● Common Crawls <br/>
