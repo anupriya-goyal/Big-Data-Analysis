@@ -2,7 +2,7 @@
 Project related to analysis of data collected from Twitter, NYT, Common Crawl
 #
 TOPIC of DATA:
-Our topic for data collection is “Politics” .
+Our topic for data collection is “Politics”. <br/>
 DATA SETS:
 We have collected large amount of data sets from 3 different sources:
 ● Twitter
