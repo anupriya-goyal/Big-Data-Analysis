@@ -4,12 +4,12 @@ Project related to analysis of data collected from Twitter, NYT, Common Crawl
 TOPIC of DATA:
 Our topic for data collection is “Politics”. <br/>
 <br/>
-DATA SETS:
+<b>DATA SETS:<b/>
         Collected large amount of data sets from 3 different sources:<br/>
         ● Twitter<br/>
         ● New York Times<br/>
         ● Common Crawls <br/>
-        WORDS USED FOR DATA COLLECTION:
+<b>WORDS USED FOR DATA COLLECTION:<b/>
         ● Trump or Hilary <br/>
         ● Elections <br/>
         ● Government <br/>
