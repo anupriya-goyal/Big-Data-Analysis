@@ -36,8 +36,9 @@ Data is collected on politics “Politics”. <br/>
           visualization Tableau.
 ### WEBSITE/ PUBLISHED URL:
         https://public.tableau.com/profile/anupriya.goyal?/vizhome/Workbook1_15558769608410/Twitter_all_word_co#!/  
-       
-         ● From the visualization it is found that ‘Trump’, is the highest count word for both Twitter and 
+###
+
+        ● From the visualization it is found that ‘Trump’, is the highest count word for both Twitter and 
            New York Times but for Common Crawl it is ‘Election’ with count 384 and
           ‘Trump’ with count 380.
         ● Then we are sorting the word-count pairs by value with sorting.ipynb and use the top 10 words from 
