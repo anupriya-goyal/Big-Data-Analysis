@@ -35,3 +35,4 @@ Data is collected on politics “Politics”. <br/>
           words and output <word, count>.
         ● We then use this output to generate word cloud to depict data using interactive
           visualization Tableau.
+
