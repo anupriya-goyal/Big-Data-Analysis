@@ -2,10 +2,9 @@
 Project related to analysis of data collected from Twitter, NYT, Common Crawl
 #
 ## Topic of Data collection:
-Data is collected on politics “Politics”. <br/>
-<br/>
+Data is collected on politics “Politics”.
 ### DATA SETS:
-        Collected large amount of data sets from 3 different sources:<br/>
+        Collected large amount of data sets from 3 different sources:
         ● Twitter
         ● New York Times
         ● Common Crawls 
