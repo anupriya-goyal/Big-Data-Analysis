@@ -16,8 +16,7 @@ Data is collected on politics “Politics”. <br/>
         ● Vote 
         ● Political party 
         Used the same set of words to collect data from all 3 data sources: Twitter, New York Times 
-        and Common Crawls.
-        
+        and Common Crawls.       
 ### STEPS FOLLOWED :
         ● Initially, collected the data from Twitter using Twitter API and ‘rtweet’ package in R using
           the script file- ‘Tweets_collection.ipynb’.
@@ -35,4 +34,22 @@ Data is collected on politics “Politics”. <br/>
           words and output <word, count>.
         ● We then use this output to generate word cloud to depict data using interactive
           visualization Tableau.
-
+### WEBSITE/ PUBLISHED URL:
+        https://public.tableau.com/profile/anupriya.goyal?/vizhome/Workbook1_15558769608410/Twitter_all_word_co#!/  
+       
+         ● From the visualization it is found that ‘Trump’, is the highest count word for both Twitter and 
+           New York Times but for Common Crawl it is ‘Election’ with count 384 and
+          ‘Trump’ with count 380.
+        ● Then we are sorting the word-count pairs by value with sorting.ipynb and use the top 10 words from 
+          the sorted data to find the co-occurrence words.
+        ● We found the co-occurrence words using a Map Reduce method for Twitter, New York Times and 
+          Common Crawl separately.
+        ● In the Mapper, used the Top 10 words from the sorted collection for Twitter, New York Times and 
+          Common Crawls data and we generate a key-value pair and output it to
+          file.
+        ● So, the output of the mapper will be of the form ( {word co-occurrence}, 1).
+        ● In the Reducer, used the output from the Mapper and reduce it to get the count of the
+          co-occurrence word.
+        ● The output of the Reducer will be of the form ( {word co-occurrence}, count).
+        ● For visualizing the co-occurrence generated the word cloud from Tableau .
+         
