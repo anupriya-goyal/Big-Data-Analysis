@@ -31,3 +31,7 @@ Data is collected on politics “Politics”. <br/>
           then written to text file named according to the keyword and data source.
         ● That cleaned text file is input to the Mapper Class where we perform word count
           functionality and output the valid word and count as < word,1>
+        ● In the Reducer, we sum the value part of each word from all mappers and get the count of
+          words and output <word, count>.
+        ● We then use this output to generate word cloud to depict data using interactive
+          visualization Tableau.
